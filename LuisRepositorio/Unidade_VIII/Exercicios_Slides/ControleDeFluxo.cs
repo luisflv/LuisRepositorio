@@ -15,7 +15,7 @@ namespace Unidade_VIII.Exercicios_Slides
         {
 
             Random gerador = new Random();
-            double Nota = gerador.Next(10);
+            double Nota = gerador.NextDouble();
 
             verifica(Nota);
 
