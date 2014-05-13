@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Slides\ADivididoPorB.cs" />
+    <Compile Include="Exercicios_Slides\A_Dividido_Por_B.cs" />
     <Compile Include="Exercicios_Slides\Aprovado Reprovado.cs" />
-    <Compile Include="Exercicios_Slides\EscolheCaminho.cs" />
-    <Compile Include="Exercicios_Slides\EscolheRoupa.cs" />
-    <Compile Include="Exercicios_Slides\VerificaValorProduto.cs" />
+    <Compile Include="Exercicios_Slides\Escolhe_Caminho.cs" />
+    <Compile Include="Exercicios_Slides\Escolhe_Roupa.cs" />
+    <Compile Include="Exercicios_Slides\Verifica_Valor_Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
