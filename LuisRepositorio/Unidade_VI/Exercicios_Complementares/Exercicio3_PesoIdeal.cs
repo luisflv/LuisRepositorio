@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosComplementares
+namespace Unidade_VI
 {
     /*3) Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1:feminino 2:masculino) de uma pessoa, 
     construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas: 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosComplementares
+namespace Unidade_VI
 {
     /*2)Escreva um programa que verifique a validade de uma senha fornecida pelo usuário. 
      A senha válida é o número NomeUsuário123. Devem ser impressas as seguintes mensagens: 

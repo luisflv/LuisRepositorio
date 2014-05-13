@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosComplementares
+namespace Unidade_VI
 {
     class Exercicio5_Fazendeiro
     {

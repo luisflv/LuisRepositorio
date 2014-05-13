@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4FC46F94-D3F2-4E52-9360-0FFA9154E464}</ProjectGuid>
+    <ProjectGuid>{4ACF0BF4-2BEB-4803-8119-CE060BCE9339}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LuisRepositorio</RootNamespace>
-    <AssemblyName>LuisRepositorio</AssemblyName>
+    <RootNamespace>ExerciciosFixacao</RootNamespace>
+    <AssemblyName>ExerciciosFixacao</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Exercicio1_Produtos.cs" />
+    <Compile Include="Exercicio2_Prefeitura.cs" />
+    <Compile Include="Exercicio3_Loja.cs" />
+    <Compile Include="Exercicio4_Anagrama.cs" />
+    <Compile Include="Exercicio5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

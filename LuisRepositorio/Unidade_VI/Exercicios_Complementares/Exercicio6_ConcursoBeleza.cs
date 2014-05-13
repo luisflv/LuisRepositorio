@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosComplementares
+namespace Unidade_VI
 {
     /*6)	Escreva um programa que leia o primeiro nome e a altura das moças inscritas em um concurso de beleza. 
      * Quando for informada a palavra FIM para o nome da moça o programa deverá ser encerrado e imprimir: 

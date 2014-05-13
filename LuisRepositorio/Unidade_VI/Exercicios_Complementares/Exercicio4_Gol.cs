@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciciosComplementares
+namespace Unidade_VI
 {
     /*4) Escreva um programa para receber números aleatórios de gols marcados pelo Grêmio e o 
       número de gols marcados pelo Inter em um GRENAL. Escrever o nome do vencedor. 
