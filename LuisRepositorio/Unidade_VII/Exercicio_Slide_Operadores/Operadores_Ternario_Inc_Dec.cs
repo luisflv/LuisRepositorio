@@ -8,7 +8,7 @@ namespace Unidade_VII
 {
     class Operadores_Ternario_Inc_Dec
     {
-        public static void Main(string[] args)
+        public static void Main3(string[] args)
         {
             /*
             //Ternario

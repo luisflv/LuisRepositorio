@@ -14,7 +14,7 @@ namespace ExerciciosFixacao
 
     class Exercicio3_Loja
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
 
             Console.WriteLine("Informe o numero total de mercadorias em estoque: ");
