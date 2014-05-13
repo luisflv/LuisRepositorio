@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio8
+namespace Unidade_VI
 {
     /*8) Uma empresa de vendas tem três corretores. A empresa paga ao corretor uma 
       comissão calculada de acordo com o valor de suas vendas. Se o valor da venda 

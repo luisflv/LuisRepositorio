@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio8
+namespace Unidade_VI
 {
     /*10) Uma pessoa comprou quatro artigos em uma loja. Para cada artigo, tem-se 
      nome, preço e percentual de desconto. Faça um algoritmo que imprima nome, 
