@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Slides\ControleDeFluxo.cs" />
+    <Compile Include="Exercicios_Slides\ADivididoPorB.cs" />
+    <Compile Include="Exercicios_Slides\Aprovado Reprovado.cs" />
+    <Compile Include="Exercicios_Slides\EscolheCaminho.cs" />
+    <Compile Include="Exercicios_Slides\EscolheRoupa.cs" />
+    <Compile Include="Exercicios_Slides\VerificaValorProduto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,14 +8,13 @@ namespace Unidade_VIII.Exercicios_Slides
 {
     class ControleDeFluxo
     {
-        
 
-        static void Main(string[] args)
-        
+
+        static void Main1(string[] args)
         {
 
             Random gerador = new Random();
-            double Nota = gerador.NextDouble();
+            double Nota = gerador.NextDouble() * 10;
 
             verifica(Nota);
 
@@ -25,12 +24,12 @@ namespace Unidade_VIII.Exercicios_Slides
         {
             if (nota > 0.7)
             {
-                Console.WriteLine("A nota foi: " +nota);
+                Console.WriteLine("A nota foi: {0:F2}" + nota);
                 Console.WriteLine("O aluno esta aprovado!");
             }
             else
             {
-                Console.WriteLine("A nota foi: " + nota);
+                Console.WriteLine("A nota foi: {0:F2}" + nota);
                 Console.WriteLine("O aluno esta reprovado!");
             }
         }
