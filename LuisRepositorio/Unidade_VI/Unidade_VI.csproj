@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="10_Artigos_Loja.cs" />
-    <Compile Include="8_Corretores.cs" />
-    <Compile Include="9_Comparacao_ABC.cs" />
+    <Compile Include="Exercicios_Fixacao\10_Artigos_Loja.cs" />
+    <Compile Include="Exercicios_Fixacao\8_Corretores.cs" />
+    <Compile Include="Exercicios_Fixacao\9_Comparacao_ABC.cs" />
     <Compile Include="Exercicios_Complementares\Exercicio1_Maca.cs" />
     <Compile Include="Exercicios_Complementares\Exercicio2_ValidadeSenha.cs" />
     <Compile Include="Exercicios_Complementares\Exercicio3_PesoIdeal.cs" />
