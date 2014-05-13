@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade_VII", "Unidade_VII\Unidade_VII.csproj", "{C5D88149-515A-488F-B6AD-69EF9C738671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedindoAFebreV", "MedindoAFebreV\MedindoAFebreV.csproj", "{CF4F2A59-2954-44E1-9D13-5C5F69D98932}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medindo_A_Febre_V", "MedindoAFebreV\Medindo_A_Febre_V.csproj", "{CF4F2A59-2954-44E1-9D13-5C5F69D98932}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade_VI", "Unidade_VI\Unidade_VI.csproj", "{99B1D18F-4335-4E91-BAD0-B2997EE2713D}"
 EndProject
