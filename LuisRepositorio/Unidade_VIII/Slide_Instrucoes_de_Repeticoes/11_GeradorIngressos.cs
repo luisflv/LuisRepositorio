@@ -13,7 +13,7 @@ namespace Unidade_VIII.Exe_Slide_Instrucao_Repeticao
 
     class _11_GeradorIngressos
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             
 
