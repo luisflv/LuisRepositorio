@@ -8,7 +8,7 @@ namespace Unidade_VIII.Exercicios_Slides
 {
     class A_Dividido_Por_B
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             
             Random gerador = new Random();
@@ -17,8 +17,11 @@ namespace Unidade_VIII.Exercicios_Slides
 
             double result;
             result = MetodoDivide(a, b);
-
+            Console.WriteLine("O valor de A e :" +a);
+            Console.WriteLine("O valor de B e :" + b);
             Console.WriteLine("O resultado foi: {0:F2}", +result);
+
+            Console.ReadKey();
         }
 
         public static double MetodoDivide(double a, double b)

@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Slides\A_Dividido_Por_B.cs" />
-    <Compile Include="Exercicios_Slides\Aprovado Reprovado.cs" />
-    <Compile Include="Exercicios_Slides\Escolhe_Caminho.cs" />
-    <Compile Include="Exercicios_Slides\Escolhe_Roupa.cs" />
-    <Compile Include="Exercicios_Slides\Verifica_Valor_Produto.cs" />
+    <Compile Include="Slide_Controle_de_Fluxo\06_A_Dividido_Por_B.cs" />
+    <Compile Include="Slide_Controle_de_Fluxo\02_Aprovado Reprovado.cs" />
+    <Compile Include="Slide_Controle_de_Fluxo\04_Escolhe_Caminho.cs" />
+    <Compile Include="Slide_Controle_de_Fluxo\05_Escolhe_Roupa.cs" />
+    <Compile Include="Slide_Controle_de_Fluxo\03_Verifica_Valor_Produto.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\08_ImprimeAteCem.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\09_Multiplo3.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\10_DivideMaiorInteiro.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\07_Repita_5_Vezes.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\11_GeradorIngressos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
