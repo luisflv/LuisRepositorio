@@ -11,7 +11,7 @@ namespace Unidade_VIII.Exe_Slide_Instrucao_Repeticao
 
     class _09_Multiplo3
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
 
             for (int i = 1; i <=100; i++)

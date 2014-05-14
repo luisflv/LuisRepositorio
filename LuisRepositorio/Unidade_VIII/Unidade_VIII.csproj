@@ -52,6 +52,8 @@
     <Compile Include="Slide_Instrucoes_de_Repeticoes\07_Repita_5_Vezes.cs" />
     <Compile Include="Slide_Instrucoes_de_Repeticoes\11_GeradorIngressos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\12_JogoDeDado.cs" />
+    <Compile Include="Slide_Instrucoes_de_Repeticoes\13_JogoDeDado2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
