@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Medindo_A_Febre_VI
 {
-    class PMedindoAFebre
+    class MedindoAFebre
     {
         static void Main(string[] args)
         {
