@@ -8,7 +8,7 @@ namespace Unidade_VIII.Slide_Instrucoes_de_Repeticoes
 {
     class _13_JogoDeDado2
     {
-        static void Main(string[] args)
+        static void Main13(string[] args)
         {
             Random gerador = new Random();
 

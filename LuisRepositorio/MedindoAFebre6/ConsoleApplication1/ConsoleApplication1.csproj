@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{345781F7-B2CB-434B-8966-1B5DD9E7CBB3}</ProjectGuid>
+    <ProjectGuid>{D7FC2655-3ADE-4A15-B538-80918575C444}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade_VIII</RootNamespace>
-    <AssemblyName>Unidade_VIII</AssemblyName>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,29 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Complementares\Exe01_.cs" />
-    <Compile Include="Exercicios_Complementares\Exe02_02.cs" />
-    <Compile Include="Exercicios_Complementares\Exe03_.cs" />
-    <Compile Include="Exercicios_Complementares\Exe04_Tabuada.cs" />
-    <Compile Include="Slide_Controle_de_Fluxo\06_A_Dividido_Por_B.cs" />
-    <Compile Include="Slide_Controle_de_Fluxo\02_Aprovado Reprovado.cs" />
-    <Compile Include="Slide_Controle_de_Fluxo\04_Escolhe_Caminho.cs" />
-    <Compile Include="Slide_Controle_de_Fluxo\05_Escolhe_Roupa.cs" />
-    <Compile Include="Slide_Controle_de_Fluxo\03_Verifica_Valor_Produto.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\08_ImprimeAteCem.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\09_Multiplo3.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\10_DivideMaiorInteiro.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\07_Repita_5_Vezes.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\11_GeradorIngressos.cs" />
+    <Compile Include="Cachorro.cs" />
+    <Compile Include="Exercicio10.cs" />
+    <Compile Include="Exercicio8.cs" />
+    <Compile Include="Exercicio9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\12_JogoDeDado.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\13_JogoDeDado2.cs" />
-    <Compile Include="Slide_Instrucoes_de_Repeticoes\14_FraseCastigo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
