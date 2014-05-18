@@ -24,7 +24,7 @@ namespace Unidade_VIII.Exercicios_Slides
         {
             if (escolha > 0.5)
             {
-                Console.WriteLine("Viste uma camisa vermelha!");
+                Console.WriteLine("Vista uma camisa vermelha!");
             }
             else
             {
