@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade_VIII.Exercicios_Complementares
 {
-    class Exe03_
+    class Exe03_ControleEstaciona
     {
         /*3)Para controlar o estacionamento de um condomínio, devemos implementar um programa em C# 
         para gerar os cartões das vagas dos moradores. Nos cartões, é necessário constar o número do 

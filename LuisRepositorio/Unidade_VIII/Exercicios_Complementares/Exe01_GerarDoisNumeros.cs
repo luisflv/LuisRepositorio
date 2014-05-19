@@ -11,7 +11,7 @@ namespace Unidade_VIII.Exercicios_Complementares
     a mensagem “Segundo > Primeiro” se o segundo número for maior do queo primeiro e mensagem 
     “Primeiro = Segundo” se o primeiro número for igual ao segundo.*/ 
 
-    class Exe01_
+    class Exe01_GerarDoisNumeros
     {
         static void Main1(string[] args)
         {

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Unidade_VIII.Exercicios_Complementares
 {
-    class Exe02_02
+    class Exe02_Caracteres
     {
+        /*2)Crie umprograma em C# que exiba o seguinte padrão no terminal
+
         static void Main2(string[] args)
         {
             /*

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade_VIII.Exercicios_Complementares
 {
-    class Exe05_
+    class Exe05_LancDado
     {
         /*5)Considere um jogo no qual o jogador lança um dado 10 vezes.
         O jogador ganha se a somados valores obtidos nos lançamentos for ímpar. 
