@@ -15,7 +15,7 @@ namespace Unidade_VIII.Exercicios_Complementares
         Implemente um programa em C# para simular a execução desse jogo*/
 
 
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
 
             Random gerador = new Random();
