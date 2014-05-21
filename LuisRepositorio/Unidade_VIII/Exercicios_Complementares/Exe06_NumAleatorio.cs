@@ -12,7 +12,7 @@ namespace Unidade_VIII.Exercicios_Complementares
         Além disso, esse programa deve contabilizar a quantidade de dígitos “1” do número 
         aleatório e exibir essa quantidadeno terminal. Complete o código abaixo*/
 
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             Random gerador = new Random();
 

@@ -16,9 +16,19 @@ namespace Unidade_VIII.Exercicios_Complementares
         a mesma*/
 
 
-        static void Main3(string[] args)
+        static void Main5(string[] args)
         {
-            //
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    for (int k = 0; k < 4; k++)
+                    {
+                        Console.WriteLine("Bloco {0}, Andar{1}, Apartamento{2}", i,j,k);
+                    }
+                }
+            }
+            
         }
     }
 }
