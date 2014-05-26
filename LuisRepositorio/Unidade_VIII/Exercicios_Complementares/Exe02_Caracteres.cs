@@ -12,7 +12,7 @@ namespace Unidade_VIII.Exercicios_Complementares
 
         static void Main2(string[] args)
         {
-         /*   
+         
                 for (int i = 0; i < 5; i++)
                 {
 
@@ -28,7 +28,7 @@ namespace Unidade_VIII.Exercicios_Complementares
 
             Console.ReadKey();
 
-            */
+            
         }
     }
 }
