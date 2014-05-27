@@ -15,7 +15,7 @@ namespace UnidadeIX.Exercicios_Complementares
         Complete o código a seguir.
         */
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             double[,] gabarito = new double[10,3];
         

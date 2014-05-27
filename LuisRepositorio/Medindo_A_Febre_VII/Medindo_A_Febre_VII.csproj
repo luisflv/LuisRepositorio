@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF6E81DC-DB9D-4E16-8813-D586D4E19CFF}</ProjectGuid>
+    <ProjectGuid>{1B33DC37-2D6C-46C3-9B8A-B7C6289DFCF5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnidadeIX</RootNamespace>
-    <AssemblyName>UnidadeIX</AssemblyName>
+    <RootNamespace>Medindo_A_Febre_VII</RootNamespace>
+    <AssemblyName>Medindo_A_Febre_VII</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,18 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Complementares\Exe01_GerarGabarito.cs" />
-    <Compile Include="Exercicios_Complementares\Exe02_VagasEstacionamento.cs" />
-    <Compile Include="Exercicios_Complementares\Exe03_VetorMenorElemento.cs" />
-    <Compile Include="Exercicios_Complementares\Exe04_Vetores.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe01_SequencialQualquer_.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe02_SequenciaCrescente.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe03_SequencialDecrescente.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe04_SequencialImpar.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe05_SequenciaAleatoria.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe06_TabelaQualquer.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe07_TabelaAleatoria.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe08_Tabuada.cs" />
+    <Compile Include="MedindoAFebre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
