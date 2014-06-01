@@ -41,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Fixacao\Exe01_ConsumoCombus.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe02_JurosCompostos.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe03_IPRF.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe04_IMC.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe05_Array.cs" />
+    <Compile Include="Exercicios_Complementares\Exe01_AnoBissexto.cs" />
+    <Compile Include="Exercicios_Complementares\Exe02_DataValida.cs" />
+    <Compile Include="Exercicios_Complementares\Exe03_.cs" />
+    <Compile Include="Exercicios_Complementares\Exe04_Tabuada.cs" />
+    <Compile Include="Exercicios_Fixacao\Exe01_ConsumoCombust.cs" />
+    <Compile Include="Exercicios_Fixacao\Exe02_JurosComposto.cs" />
+    <Compile Include="Exercicios_Fixacao\Exe03_iPRF.cs" />
+    <Compile Include="Exercicios_Fixacao\Exe04_I.M.C.cs" />
+    <Compile Include="Exercicios_Fixacao\Exe05_Arrayy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
