@@ -15,7 +15,20 @@ namespace UnidadeIX.Exercicios_Complementares
         */
         static void Main2(string[] args)
         {
+            int[,] andar = new int[4, 10];
+            String[] vagas = new String[] { "Ocupada", "Livre" };
 
+            Random random = new Random();
+            for (int i = 0; i < 4; i++)
+            {
+                andar[i, i] = i;
+                for (int j = 0; j < 10; j++)
+                {
+                    andar[i, j] = j;
+                    Console.WriteLine("Andar {0}, Vaga {1}, Situação {2} ", i + 1, j + 1, vagas[random.Next(0, 2)]);
+
+                }
+            }
         }
     }
 }

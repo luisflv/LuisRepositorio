@@ -11,7 +11,7 @@ namespace UnidadeIX.Exercicios_Complementares
         /*3)Escreva um algoritmo que leia um vetor de 7 elementos inteiros. 
         Encontre e mostre o menor elemento e sua posição no vetor.
         */
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             Random gerador = new Random();
 

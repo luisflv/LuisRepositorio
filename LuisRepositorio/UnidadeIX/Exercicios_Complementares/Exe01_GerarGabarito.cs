@@ -17,10 +17,20 @@ namespace UnidadeIX.Exercicios_Complementares
 
         static void Main1(string[] args)
         {
-            double[,] gabarito = new double[10,3];
-        
-          
-        
+            Random random = new Random();
+
+            int[] gabarito = new int[10];
+            int[] alternativa = new int[3];
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("Questão {0} ", i);
+                for (int j = 1; j <= 1; j++)
+                {
+                    alternativa[j] = random.Next(1, 4);
+                    Console.WriteLine("Alternativa Correta {0} ", alternativa[j]);
+                }
+            }
         }
 
     }
