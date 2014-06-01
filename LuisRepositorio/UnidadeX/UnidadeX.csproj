@@ -49,7 +49,7 @@
     <Compile Include="Exercicios_Fixacao\Exe02_JurosComposto.cs" />
     <Compile Include="Exercicios_Fixacao\Exe03_iPRF.cs" />
     <Compile Include="Exercicios_Fixacao\Exe04_I.M.C.cs" />
-    <Compile Include="Exercicios_Fixacao\Exe05_Arrayy.cs" />
+    <Compile Include="Exercicios_Fixacao\Exe05_Array.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

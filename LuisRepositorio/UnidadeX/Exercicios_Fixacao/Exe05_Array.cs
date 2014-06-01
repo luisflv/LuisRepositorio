@@ -11,7 +11,7 @@ namespace UnidadeX.Exercicios_Fixacao
    comnúmeros inteiros aleatórios no intervalo de 0 a 99 e outro que exiba 
    no terminal os valores armazenados em um array.*/
 
-    class Exe05_Arrayy
+    class Exe05_Array
     {
         static void Main5(string[] args)
         {
