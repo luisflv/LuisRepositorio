@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercicios_Complementares\Exe01_MegaSena.cs" />
+    <Compile Include="Exercicios_Complementares\Exe02_MegaSenaII.cs" />
+    <Compile Include="Exercicios_Complementares\Exe03_Ordenar.cs" />
+    <Compile Include="Exercicios_Complementares\Exe04_MostrarAcerto.cs" />
     <Compile Include="Exercicios_Fixacao\Exe01_AcharMaiorMenorElemento.cs" />
     <Compile Include="Exercicios_Fixacao\Exe02_SomaElementos.cs" />
     <Compile Include="Exercicios_Fixacao\Exe03_MediaElementos.cs" />
