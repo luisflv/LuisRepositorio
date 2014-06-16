@@ -174,7 +174,7 @@ namespace BancoDeDados
         {
             //Define uma string de conexão com o banco de dados CursoNDD.mdf
             string connectionString =
-                @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\unknown-not\Source\Repos\LuisRepositorio\LuisRepositorio\UnidadeXII\BancoDeDados\CursoDB.mdf;Integrated Security=True";
+                @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\unknown-not\Source\Repos\LuisRepositorio\LuisRepositorio\UnidadeXII\BancoDeDados\LuisFernandoDB.mdf;Integrated Security=True";
 
             //Cria um novo objeto SqlConnection object usando a string de conexão
             SqlConnection sqlConn = new SqlConnection(connectionString);
