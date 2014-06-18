@@ -1,0 +1,99 @@
+EXERCICIOCOMPLEMENTARES: UNIDADE 12
+
+ 
+
+Conforme as tabelas acima façam a seguintes consultas:
+
+1)	Crie as tabelas em sua base de dados e faça a relação entre elas.
+
+2)	Preencha as tabelas com valores aleatórios para que possamos fazer consultas.
+
+3)	Listar nome e sobrenome ordenado por sobrenome da tabela funcionário.
+
+SELECT PrimeiroNome,Sobrenome FROM Funcionario
+order by Sobrenome
+
+4)	Listar todos os campos de funcionários ordenados por função.
+
+SELECT * FROM Funcionario
+order by funcao
+
+5)	Liste os funcionários que têm salário superior a R$ 1.000,00 ordenadospelo nome completo.
+
+select * from funcionario
+where Salario > 1000
+
+6)	Liste o total da folha de pagamento de todos os funcionários.
+
+SELECT Sum(Salario) AS Salario_Total FROM Funcionario
+
+7)	Liste o nome, o nome do departamento e a função de todos os funcionários ordenado por nome.
+
+select f.PrimeiroNome, f.Funcao, d.Nome from Funcionario as f inner join Departamento as d on d.Id = f.Departamento_Id order by nome
+
+
+8)	Liste o valor da folha de pagamento de cada departamento.
+
+SELECT d.nome, sum(f.Salario) As Salario from Departamento as d INNER JOIN
+FUNCIONARIO as f on d.Id  = f.Departamento_Id group by d.Nome
+
+9)	Exclua os departamentos que não tenham funcionários.
+
+
+
+10)	Liste os departamentos dos funcionários que têm a função de supervisor.
+
+11)	Liste os funcionários que têm salário entre R$ 500,00 e 1.500,00 ordenadospelo nome.
+
+12)	 Liste os nomes de funcionários que começam com a letra ‘M’ ordenados pro nome de departamento.
+
+13)	Liste a quantidade de funcionários desta empresa. 
+14)	Liste a quantidade de funcionários de cada departamento. 
+15)	Liste o salário médio pago pela empresa. (Existe um comando)
+16)	Liste o menor salário pago pela empresa em cada departamento.
+
+17)	Liste o maior salário pago pela empresa em cada departamento.
+
+18)	Liste o nome do departamento e do funcionário ordenados por departamento e funcionário. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bons estudos!

@@ -83,6 +83,11 @@
     <Content Include="BancoDeDados\LuisFernandoDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="BancoDeDados\LuisFernandoDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>LuisFernandoDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="ExercicioComplementar\Unidade 12.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
