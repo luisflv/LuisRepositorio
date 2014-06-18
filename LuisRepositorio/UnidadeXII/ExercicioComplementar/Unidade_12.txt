@@ -1,17 +1,14 @@
 EXERCICIOCOMPLEMENTARES: UNIDADE 12
 
- 
-
 Conforme as tabelas acima façam a seguintes consultas:
 
-1)	Crie as tabelas em sua base de dados e faça a relação entre elas.
+1)Crie as tabelas em sua base de dados e faça a relação entre elas.
 
-2)	Preencha as tabelas com valores aleatórios para que possamos fazer consultas.
+2)Preencha as tabelas com valores aleatórios para que possamos fazer consultas.
 
-3)	Listar nome e sobrenome ordenado por sobrenome da tabela funcionário.
+3)Listar nome e sobrenome ordenado por sobrenome da tabela funcionário.
 
-SELECT PrimeiroNome,Sobrenome FROM Funcionario
-order by Sobrenome
+SELECT PrimeiroNome,Sobrenome FROM Funcionario ORDER BY Sobrenome
 
 4)	Listar todos os campos de funcionários ordenados por função.
 
@@ -22,40 +19,60 @@ order by funcao
 
 select * from funcionario
 where Salario > 1000
+order by PrimeiroNome,Sobrenome
 
 6)	Liste o total da folha de pagamento de todos os funcionários.
 
 SELECT Sum(Salario) AS Salario_Total FROM Funcionario
 
-7)	Liste o nome, o nome do departamento e a função de todos os funcionários ordenado por nome.
+7)Liste o nome, o nome do departamento e a função de todos os funcionários ordenado por nome.
 
-select f.PrimeiroNome, f.Funcao, d.Nome from Funcionario as f inner join Departamento as d on d.Id = f.Departamento_Id order by nome
+SELECT f.PrimeiroNome, f.Funcao, d.Nome from Funcionario as f inner join Departamento as d on d.Id = f.Departamento_Id ORDER BY NOME
 
-
-8)	Liste o valor da folha de pagamento de cada departamento.
+8)Liste o valor da folha de pagamento de cada departamento.
 
 SELECT d.nome, sum(f.Salario) As Salario from Departamento as d INNER JOIN
 FUNCIONARIO as f on d.Id  = f.Departamento_Id group by d.Nome
 
 9)	Exclua os departamentos que não tenham funcionários.
 
-
+DELETE FROM FUNCIONARIO WHERE Departamento_Id is null
 
 10)	Liste os departamentos dos funcionários que têm a função de supervisor.
 
+SELECT * FROM DEPARTAMENTO WHERE NOME = 'Supervisor'
+
 11)	Liste os funcionários que têm salário entre R$ 500,00 e 1.500,00 ordenadospelo nome.
+
+select PrimeiroNome, Salario from FUNCIONARIO where Salario between 500 and 1500 order by PrimeiroNome
 
 12)	 Liste os nomes de funcionários que começam com a letra ‘M’ ordenados pro nome de departamento.
 
+select f.PrimeiroNome, d.Nome from FUNCIONARIO As f inner join DEPARTAMENTOS AS d on d.Id = f.DEPARTAMENTO_ID and PrimeiroNome like 'L%' order by d.Nome
+
 13)	Liste a quantidade de funcionários desta empresa. 
+
+select count(*) from FUNCIONARIO
+
 14)	Liste a quantidade de funcionários de cada departamento. 
+
+select count(*) from DEPARTAMENTOS AS d inner join FUNCIONARIO AS f on d.Id = f.DEPARTAMENTO_ID group by d.Id
+
 15)	Liste o salário médio pago pela empresa. (Existe um comando)
+
+select avg(Salario) from FUNCIONARIO
+
 16)	Liste o menor salário pago pela empresa em cada departamento.
+
+select min(Salario) from DEPARTAMENTOS AS d inner join FUNCIONARIO As f on d.Id = f.DEPARTAMENTO_ID group by d.Id
 
 17)	Liste o maior salário pago pela empresa em cada departamento.
 
+select max(Salario) from DEPARTAMENTOS AS d inner join FUNCIONARIO As f on d.Id = f.DEPARTAMENTO_ID group by d.Id
+
 18)	Liste o nome do departamento e do funcionário ordenados por departamento e funcionário. 
  
+select d.Nome, f.PrimeiroNome from FUNCIONARIO As f inner join DEPARTAMENTOS AS d on d.Id = f.DEPARTAMENTO_ID order by d.Nome, f.PrimeiroNome
 
 
 
@@ -96,4 +113,3 @@ FUNCIONARIO as f on d.Id  = f.Departamento_Id group by d.Nome
 
 
 
-Bons estudos!
