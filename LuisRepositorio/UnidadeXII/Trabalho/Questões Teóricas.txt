@@ -1,0 +1,29 @@
+Questões teóricas: 
+
+1) Defina: SQL. 
+
+SQL é uma linguagem estruturada de consulta, utilizada para a manipulação dos dados em um BD.
+
+2) Faça um relacionamento cronológico sobre SQL. 
+
+
+3) Liste as principais características de SQL. 
+
+
+
+4) Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e quais são opcionais? 
+
+SELECT “nome_coluna” FROM “nome_tabela”
+
+Comandos/cláusulas básicas
+
+SELECT: Cláusula obrigatória em uma consulta SQL, responsável por listar todas as colunas que serão projetadas na consulta;
+FROM: Nesta Cláusula informamos a fonte das informações, podendo ser apenas uma ou várias. Também é obrigatória e juntamente com a cláusula SELECT formam a base de qualquer consulta SQL;
+WHERE: Cláusula não obrigatória que restringe os dados obtidos através de operações que testam se cada registro satisfaz a condição ou não;
+GROUP BY: Responsável por agrupar os dados com base nos campos informados, estes poderão ser projetados na cláusula SELECT, mas somente poderá constar nesta, os campos listados no GROUP BY ou os campos em funções aritméticas internas do banco (falaremos destas funções, bem como utilizá-las nos próximos textos);
+HAVING: Somente pode ser utilizado quando aplicada a cláusula GROUP BY, visando restringir os dados recuperados através de testes dos campos das funções aritméticas;
+ORDER BY: Cláusula muito utilizada no dia-a-dia dos programadores, como o próprio nome já deixa a entender, tem a função de ordenar a consulta com base em determinados campos ou funções escolhidos pelo usuário, capaz de ordenar campos numéricos e strings;
+
+
+5) Qual a importância da linguagem SQL no desenvolvimento de softwares atualmente? 
+Justifique.

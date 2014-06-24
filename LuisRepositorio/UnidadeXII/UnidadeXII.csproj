@@ -56,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayList\Lista.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -88,7 +89,9 @@
       <DependentUpon>LuisFernandoDB.mdf</DependentUpon>
     </Content>
     <Content Include="ExercicioComplementar\Unidade_12.txt" />
+    <Content Include="Trabalho\Questões Teóricas.txt" />
     <Content Include="Trabalho\SQL.sql" />
+    <Content Include="Trabalho\SQLQuery1.sql" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
