@@ -14,15 +14,15 @@ namespace ExerciciosComplementares
 
         static ArrayList _ArrayList = new ArrayList();
 
-        public static void Main(string[] args)
+        public static void Main3(string[] args)
         {
             string nome;
             Console.WriteLine("Informe os nomes: (DIGITE 'fim' PARA SAIR");
-            do
-            {
-                _ArrayList.Add(nome = Console.ReadLine());
+            nome = Console.ReadLine();
+            while (nome != "fim"){
+                _ArrayList.Add(nome);
 
-            } while (nome != "fim");
+            } 
 
             _ArrayList.Sort();
 
