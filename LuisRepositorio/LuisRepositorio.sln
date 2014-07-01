@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnidadeXI", "UnidadeXI\Unid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnidadeXII", "UnidadeXII\UnidadeXII.csproj", "{3224EF85-ADBD-476B-BBFC-F0A1FC90AF3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios_Complementares_Colecoes", "ExerciciosComplementaresColecoes\Exercicios_Complementares_Colecoes.csproj", "{57612030-1519-4A24-9C6D-D388FFDD983B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios_Complementares", "ExerciciosComplementaresColecoes\Exercicios_Complementares.csproj", "{57612030-1519-4A24-9C6D-D388FFDD983B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
