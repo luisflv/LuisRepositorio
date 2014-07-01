@@ -41,17 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exe01_Cem_Numeros.cs" />
-    <Compile Include="Exe02_Oitenta_Numeros_Decimais.cs" />
-    <Compile Include="Exe03_NomesLista.cs" />
-    <Compile Include="Exe04_DiferentesListas.cs" />
+    <Compile Include="Colecoes\Exe01_Cem_Numeros.cs" />
+    <Compile Include="Colecoes\Exe02_Oitenta_Numeros_Decimais.cs" />
+    <Compile Include="Colecoes\Exe03_NomesLista.cs" />
+    <Compile Include="Colecoes\Exe04_DiferentesListas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="html\index.html" />
+    <Content Include="Web_html\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
